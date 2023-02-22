@@ -1,0 +1,18 @@
+package com.test;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
+
+public class DemoRestAPI {
+    
+	@Test
+	public void testAPI() {
+		
+		RestAssured.baseURI = "https://petstore.swagger.io";
+		given().
+		 when().get("/v2/pet/findByStatus?status=pending");
+		
+	}
+}

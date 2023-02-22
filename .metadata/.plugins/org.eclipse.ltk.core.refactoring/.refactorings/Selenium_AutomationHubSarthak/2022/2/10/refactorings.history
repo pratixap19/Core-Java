@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;locators.ShadowDOM&apos; to &apos;ShadowDOM_Locators&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_AutomationHubSarthak&apos;&#x0D;&#x0A;- Original element: &apos;locators.ShadowDOM&apos;&#x0D;&#x0A;- Renamed element: &apos;locators.ShadowDOM_Locators&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ShadowDOM&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;locators{ShadowDOM.java[ShadowDOM" matchStrategy="1" name="ShadowDOM_Locators" qualified="false" references="true" similarDeclarations="false" stamp="1646059367304" textual="false" version="1.0"/>
+</session>

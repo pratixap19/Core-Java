@@ -1,0 +1,31 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-04T15:03:07.748Z",
+        "line": 10,
+        "name": "Scenario3",
+        "description": "Given: This is Scenario3",
+        "id": "using-of-tags-in-cucumber;scenario3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Using of tags in Cucumber",
+    "description": "",
+    "id": "using-of-tags-in-cucumber",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TagExample.feature",
+    "tags": []
+  }
+]

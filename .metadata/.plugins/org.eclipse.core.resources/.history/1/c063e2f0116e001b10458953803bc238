@@ -1,0 +1,29 @@
+package com.exception;
+
+public class ExceptionEx1 {
+
+	static String name;
+
+	public static void main(String[] args) {
+
+		int a = 0;
+		System.out.println("Execution started");
+
+		// System.out.println(name.length());
+
+		try {
+
+			System.out.println(1 / a);
+            System.out.println("After exception");
+		} catch (ArithmeticException ex) {
+			System.out.println("ArithmeticException handled");
+		}catch(NullPointerException ex){
+			System.out.println("NullpointException handled");
+		}catch(Exception ex) {
+			System.out.println("Exception");
+		}
+
+		System.out.println("Exception completed");
+	}
+
+}

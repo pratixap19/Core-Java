@@ -1,0 +1,17 @@
+package sadikDemo;
+
+public class Child {
+	
+	int number = 200;
+	
+	public Child() {
+		System.out.println("Child class default constructor");
+	}
+	
+	public int setValue(int number) {
+		System.out.println("Parent class variable value assigned");
+		 this.number=number;
+		 return number;
+	}
+
+}

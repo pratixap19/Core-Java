@@ -1,0 +1,10 @@
+package com.overriding;
+
+public class Poly {
+
+	public static void main(String[] args) {
+		Two t = new Two();
+		t.calculate(25);
+	}
+
+}

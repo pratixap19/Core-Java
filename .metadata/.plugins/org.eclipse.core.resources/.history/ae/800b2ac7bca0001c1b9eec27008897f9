@@ -1,0 +1,13 @@
+
+public class String_Operation2 {
+
+	public static void main(String[] args) {
+		//replace()
+		String s = "I am learning Strings";
+		System.out.println(s.replace("am", "am not"));
+		
+		String s1 = "Can an ankle injury heal";
+		System.out.println(s1.replace("an", "add"));
+	}
+
+}

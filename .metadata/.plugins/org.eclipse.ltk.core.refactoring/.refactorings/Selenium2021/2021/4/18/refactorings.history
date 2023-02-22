@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.seleniumAssignment_Balaji.GetWindowTitle&apos; to &apos;HandlingWindows&apos;&#x0D;&#x0A;- Original project: &apos;Selenium2021&apos;&#x0D;&#x0A;- Original element: &apos;com.seleniumAssignment_Balaji.GetWindowTitle&apos;&#x0D;&#x0A;- Renamed element: &apos;com.seleniumAssignment_Balaji.HandlingWindows&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GetWindowTitle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.seleniumAssignment_Balaji{GetWindowTitle.java[GetWindowTitle" matchStrategy="1" name="HandlingWindows" qualified="false" references="true" similarDeclarations="false" stamp="1619618601522" textual="false" version="1.0"/>
+</session>

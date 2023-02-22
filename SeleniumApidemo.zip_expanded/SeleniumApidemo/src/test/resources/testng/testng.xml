@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="10">
+
+	<listeners>
+		<listener class-name="com.framework.report.TestListener" />
+	</listeners>
+
+	 <test name="UITests" preserve-order="true" verbose="2">
+		<classes>
+			<class name="com.test.selenium.AddVerifyBook" />
+			<class name="com.test.selenium.Login" />
+		</classes>
+	</test> 
+
+	<test name="APITests" preserve-order="true" verbose="2">
+		<classes>
+			<class name="com.test.api.Account" />
+			<class name="com.test.api.DataDrivenAPI" />
+		</classes>
+	</test>
+	 
+</suite>

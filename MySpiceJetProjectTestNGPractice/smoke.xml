@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking functional">
+  <test name="Test">
+    <packages>
+    <package name = "booking"></package>
+    <package name ="onlineCheckin"></package>
+    </packages>
+    
+  </test> <!-- Test -->
+</suite> <!-- Booking functional -->

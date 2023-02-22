@@ -1,0 +1,768 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3359936200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.steps.Stepsjcpenny.I_am_on_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T11:09:38.928Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2768943100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify product in jcpenny",
+        "description": "",
+        "id": "verify-search-functionality-of-application;verify-product-in-jcpenny",
+        "after": [
+          {
+            "result": {
+              "duration": 1288310000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12255184200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I search product in application",
+            "match": {
+              "location": "com.steps.Stepsjcpenny.i_search_product_in_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I verify product listed successfully on product page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3332035300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.steps.Stepsjcpenny.I_am_on_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T11:09:58.742Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1537690700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify product in jcpenny",
+        "description": "",
+        "id": "verify-search-functionality-of-application;verify-product-in-jcpenny;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1398513100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I search product \"liz-claiborne-sleeveless-shift-dress\"in application",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I verify \"liz-claiborne-sleeveless-shift-dress\" display successfully on product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"liz-claiborne-sleeveless-shift-dress\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.steps.Stepsjcpenny.i_verify_display_successfully_on_product_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3382322400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.steps.Stepsjcpenny.I_am_on_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T11:10:05.034Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1452629800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify product in jcpenny",
+        "description": "",
+        "id": "verify-search-functionality-of-application;verify-product-in-jcpenny;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 919108800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I search product \"Nike Flex Experience RN 9 Mens Running Shoes\"in application",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I verify \"Nike Flex Experience RN 9 Mens Running Shoes\" display successfully on product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nike Flex Experience RN 9 Mens Running Shoes\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.steps.Stepsjcpenny.i_verify_display_successfully_on_product_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3120516200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.steps.Stepsjcpenny.I_am_on_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-11T11:10:10.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1573246300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify product in jcpenny",
+        "description": "",
+        "id": "verify-search-functionality-of-application;verify-product-in-jcpenny;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 959469600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I search product \"mens nike air monarch shoes\"in application",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I verify \"mens nike air monarch shoes\" display successfully on product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mens nike air monarch shoes\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.steps.Stepsjcpenny.i_verify_display_successfully_on_product_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify search functionality of application",
+    "description": "",
+    "id": "verify-search-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/jcpenny.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-11T11:10:16.473Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1631146900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Verify login with valid user",
+        "description": "",
+        "id": "login-functionality;verify-login-with-valid-user",
+        "after": [
+          {
+            "result": {
+              "duration": 779703100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "User is on login page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User enters username and password in the input fields",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user clicks on login button",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user will be navigated on home page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I logout from application",
+            "match": {
+              "location": "com.steps.StepDefinition.i_logout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "com.steps.Hooks.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

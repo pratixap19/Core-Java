@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;String_Operations&apos; to &apos;String_Operations1&apos;&#x0D;&#x0A;- Original project: &apos;Core Java 24 - StringMethods&apos;&#x0D;&#x0A;- Original element: &apos;String_Operations&apos;&#x0D;&#x0A;- Renamed element: &apos;String_Operations1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;String_Operations&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{String_Operations.java[String_Operations" matchStrategy="1" name="String_Operations1" qualified="false" references="true" similarDeclarations="false" stamp="1646948912494" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="0.377">
+    <testcase classname="Test the login functionality of OrangeHRM using Data Table" name="Test the valid login page" time="0.071">
+        <system-out><![CDATA[Given user is on login page.................................................skipped
+When user enters credentials using DataTable................................skipped
+And click on login button...................................................skipped
+Then user should land on home page..........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login page" time="0.01">
+        <system-out><![CDATA[Given user is on login page.................................................skipped
+When user enters admin and admin123.........................................skipped
+And click on login button...................................................skipped
+Then user should land on home page..........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid login page 2" time="0.003">
+        <system-out><![CDATA[Given user is on login page.................................................skipped
+When user enters admin1 and admin1234.......................................skipped
+And click on login button...................................................skipped
+Then user should land on home page..........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario1" time="0.004">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario2" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario3" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario4" time="0.001">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario5" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="Using of tags in Cucumber" name="Scenario6" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+</testsuite>

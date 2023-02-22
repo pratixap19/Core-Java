@@ -1,0 +1,17 @@
+package com.exception;
+
+public class ExceptionEx1 {
+	
+	static String name;
+
+	public static void main(String[] args) {
+	
+	int a = 0;
+	
+	System.out.println(name.length());
+	
+	//System.out.println(1/a);
+		
+	}
+
+}

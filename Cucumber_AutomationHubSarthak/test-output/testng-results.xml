@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I am interested in learning MMA (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I went online to find different MMA gyms (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I shortlisted 4 MMA gyms near my place (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I inquired about one gym closed to my place they asked me to come and have a look (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I decided to visit them (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I went to visit gym on 20 Aug 2020 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I decided to book membership for 3 months (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I decided to keep a trainer (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I bargained and received a discount of 20% (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-14T18:20:11Z" name="Default suite" finished-at="2022-02-14T18:20:12Z" duration-ms="498">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumber_learning.Runner_TestNG@6d026701]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-14T18:20:11Z" name="Default test" finished-at="2022-02-14T18:20:12Z" duration-ms="498">
+      <class name="Cucumber_learning.Runner_TestNG">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Cucumber_learning.Runner_TestNG@6d026701]" started-at="2022-02-14T18:20:11Z" name="setUpClass" finished-at="2022-02-14T18:20:12Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumber_learning.Runner_TestNG@6d026701]" started-at="2022-02-14T18:20:12Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-14T18:20:12Z" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Looking for a MMA gym near my place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I want to learn MMA with a good trainer"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am interested in learning MMA (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I went online to find different MMA gyms (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I shortlisted 4 MMA gyms near my place (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I inquired about one gym closed to my place they asked me to come and have a look (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I decided to visit them (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I went to visit gym on 20 Aug 2020 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I decided to book membership for 3 months (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I decided to keep a trainer (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I bargained and received a discount of 20% (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber_learning.Runner_TestNG@6d026701]" started-at="2022-02-14T18:20:12Z" name="tearDownClass" finished-at="2022-02-14T18:20:12Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber_learning.Runner_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

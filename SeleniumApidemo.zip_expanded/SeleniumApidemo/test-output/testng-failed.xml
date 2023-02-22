@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.framework.report.TestListener"/>
+  </listeners>
+  <test name="APITests(failed)">
+    <classes>
+      <class name="com.test.api.DataDrivenAPI">
+        <methods>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="testAfterMethod"/>
+          <include name="createUser" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.test.api.DataDrivenAPI -->
+      <class name="com.test.selenium.AddVerifyBook">
+        <methods>
+          <include name="setTest"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.selenium.AddVerifyBook -->
+      <class name="com.test.selenium.Login">
+        <methods>
+          <include name="setTest"/>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.selenium.Login -->
+      <class name="com.test.api.Account">
+        <methods>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="getUserById"/>
+          <include name="before"/>
+          <include name="testAfterMethod"/>
+          <include name="tearDownSuite"/>
+          <include name="createUser"/>
+          <include name="deletetUser"/>
+        </methods>
+      </class> <!-- com.test.api.Account -->
+    </classes>
+  </test> <!-- APITests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

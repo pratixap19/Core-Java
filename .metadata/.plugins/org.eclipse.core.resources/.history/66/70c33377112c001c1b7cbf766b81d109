@@ -1,0 +1,13 @@
+package com.JavaPracticePrograms;
+
+public class RegularExpression {
+
+	public static void main(String[] args) {
+		
+		String s = "$125";
+		String s1=s.replaceAll("[$]", "");
+		System.out.println(s1);
+
+	}
+
+}

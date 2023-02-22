@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;FinalExample&apos; to &apos;FinalVariableExample&apos;&#x0D;&#x0A;- Original project: &apos;Core Java 22 - Interface&apos;&#x0D;&#x0A;- Original element: &apos;FinalExample&apos;&#x0D;&#x0A;- Renamed element: &apos;FinalVariableExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FinalExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{FinalExample.java[FinalExample" matchStrategy="1" name="FinalVariableExample" qualified="false" references="true" similarDeclarations="false" stamp="1620987400672" textual="false" version="1.0"/>
+</session>

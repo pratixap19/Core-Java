@@ -1,0 +1,13 @@
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		
+		String name = "Selenium";
+		String rev="";
+		int len=name.length();
+		System.out.println(len);
+
+	}
+
+}

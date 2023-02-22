@@ -1,0 +1,14 @@
+package com.datastructures;
+
+import java.util.ArrayList;
+
+public class ArrayListExample1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<E> al = new ArrayList();//allow adding any type of data elements.
+		al.add();
+
+	}
+
+}

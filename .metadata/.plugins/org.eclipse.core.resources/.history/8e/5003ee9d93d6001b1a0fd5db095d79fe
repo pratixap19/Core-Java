@@ -1,0 +1,15 @@
+package com.test;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class DemoRestAPI {
+    
+	@Test
+	public void testAPI() {
+		
+		RestAssured.baseURI = "https://petstore.swagger.io";
+		
+	}
+}

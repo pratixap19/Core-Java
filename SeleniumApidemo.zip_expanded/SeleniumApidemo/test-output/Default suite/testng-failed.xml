@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="com.test.api.DataDrivenAPI">
+        <methods>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="before"/>
+          <include name="testAfterMethod"/>
+          <include name="createUser" invocation-numbers="0 1 2 3"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- com.test.api.DataDrivenAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

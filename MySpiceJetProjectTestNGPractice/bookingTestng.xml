@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking functional">
+  <test name="Test">
+    <classes>
+      <class name="basicTestNGProgram.FirstTestNGProgram"/>
+      
+      <class name="booking.BookFlight">
+      <methods>
+      <exclude name = "bookFlight_OneWay_Testcase4"></exclude>
+      </methods>
+      </class>
+      
+      <class name="booking.BookHotel">
+      <methods>
+      <include name = "BookHotel_destinationCity"></include>
+      </methods>
+      </class>
+      
+      <class name="booking.BookHolidayPackage">
+      <methods>
+      <include name = "BookholidayPackage.*"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Booking functional -->

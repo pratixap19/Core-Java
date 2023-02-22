@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-26T11:24:56Z" name="Default suite" finished-at="2021-08-26T11:24:58Z" duration-ms="2180">
+    <groups>
+    </groups>
+    <test started-at="2021-08-26T11:24:56Z" name="Default test" finished-at="2021-08-26T11:24:58Z" duration-ms="2180">
+      <class name="com.subhasishMishra.GetAPI">
+        <test-method signature="getAPI()[pri:0, instance:com.subhasishMishra.GetAPI@6c372fe6]" started-at="2021-08-26T11:24:56Z" name="getAPI" finished-at="2021-08-26T11:24:58Z" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPI -->
+      </class> <!-- com.subhasishMishra.GetAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
