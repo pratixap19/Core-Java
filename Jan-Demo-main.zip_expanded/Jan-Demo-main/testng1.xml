@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" >
+
+	<test name="Chrome" parallel="classes" thread-count="2">
+		<parameter name="browser" value="chrome" />		
+		<classes>
+			<class name="com.selenium.tests.factory.SearchProduct" />
+			<class name="com.selenium.tests.SearchProduct" />
+			<class name="com.selenium.tests.CheckoutGustUser" />
+			<class name="com.selenium.tests.SearchProduct" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Firefox">
+		<parameter name="browser" value="firefox" />		
+		<classes>
+			<class name="com.selenium.tests.factory.SearchProduct" />
+			<class name="com.selenium.tests.SearchProduct" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite">
+
+	<test name="Chrome">
+	    <parameter name="browser" value = "chrome" />
+	    <parameter name="UserName" value = "QA" />
+	    <parameter name="Password" value = "Password" />
+		<classes>
+			<class name="testngpackage.SampleTest" />			
+		</classes>
+	</test>
+	
+	<test name="Firefox">
+	    <parameter name="browser" value = "Firefox" />
+	    <parameter name="UserName" value = "QA1" />
+	    <parameter name="Password" value = "Password1" />
+		<classes>
+			<class name="testngpackage.SampleTest" />			
+		</classes>
+	</test>
+	
+	
+	 <!-- Test -->
+<!--
+	<test name="Firefox">
+		<classes>
+			<class name="testngpackage.SampleTest" />
+			<class name="testngpackage.AssertionExample" />
+			<class name="testngpackage.TestAttributes" />
+			<class name="testngpackage.TestngDemo" />
+		</classes>
+	</test>  Test -->
+
+</suite> <!-- Suite -->
